@@ -1,0 +1,4 @@
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/training/
+RewriteRule ^(.*)$ http://134.122.109.10/$1 [R=301,L]
